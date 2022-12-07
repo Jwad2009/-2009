@@ -1,13 +1,13 @@
-FROM telethonArab/telethonAr:alpine
+من telethon/ telethonAr: جبال الألب
 
-#clonning repo 
-RUN git clone https://github.com/telethonArab/telethonAr/tree/master.git /root/Arab
-#working directory 
-WORKDIR /root/Arab
+# استنساخ الريبو
+RUN git clone https://github.com/Jwad2009/-2009
+# دليل العمل
+WORKDIR / جذر / عربي
 
-# Install requirements
-RUN pip3 install -U -r requirements.txt
+# متطلبات التثبيت
+تشغيل Pip3 install -U -r requirements.txt
 
-ENV PATH="/home/Arab/bin:$PATH"
+ENV PATH = "/ home / Arab / bin: $ PATH"
 
-CMD ["python3","-m","Arab"]
+CMD [ "python3" ، "-m" ، "Arab
